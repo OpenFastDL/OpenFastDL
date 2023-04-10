@@ -1,0 +1,23 @@
+name: Content Request
+description: Request new files be added to OpenFastDL's file server
+title: "[CONTENT]: "
+labels: ["content-request"]
+body:
+  - type: checkboxes
+    id: game
+    attributes:
+      label: Game
+      description: What game is this content for?
+      options:
+        - label: Team Fortress 2
+        - label: "Counter-Strike: Source"
+        - label: "Counter-Strike: Global Offensive"
+        - label: Other
+  - type: checkboxes
+    id: verified
+    attributes:
+      label: Duplicate Verification
+      description: Have you verified that this content has not already been requested, added, or flagged for removal?
+      options:
+        - label: I have verified that this content has not already been requested, added, or flagged for removal.
+          required: true
