@@ -13,8 +13,8 @@ body:
         - label: "Counter-Strike: Source"
         - label: "Counter-Strike: Global Offensive"
         - label: Other
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: verified
     attributes:
