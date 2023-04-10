@@ -19,9 +19,9 @@ body:
     attributes:
       label: Proof of IP ownership
       description: |
-      Please provide any links, documents, or other relevant information proving that *you* are the creator or owner of this content.
+        Please provide any links, documents, or other relevant information proving that *you* are the creator or owner of this content.
 
-      <small>*If you wish to privately disclose proof of ownership, you may do so via the organization's contact email and referencing this issue.*</small>
+        <small>*If you wish to privately disclose proof of ownership, you may do so via the organization's contact email and referencing this issue.*</small>
     validations:
       required: true
   - type: textarea
