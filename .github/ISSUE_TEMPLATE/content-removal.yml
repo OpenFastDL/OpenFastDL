@@ -1,4 +1,4 @@
-name: Content Removal
+name: Existing Content Removal
 description: Request your content be removed from OpenFastDL's file servers
 title: "[REMOVAL]: "
 labels: ["content-removal"]
