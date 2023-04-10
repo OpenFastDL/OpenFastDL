@@ -10,11 +10,13 @@ body:
       description: What game is this content for?
       options:
         - label: Team Fortress 2
+          required: true
         - label: "Counter-Strike: Source"
+          required: true
         - label: "Counter-Strike: Global Offensive"
+          required: true
         - label: Other
-    validations:
-      required: true
+          required: true
   - type: checkboxes
     id: verified
     attributes:
