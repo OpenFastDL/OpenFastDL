@@ -1,5 +1,5 @@
 name: Content Request
-description: Request new files be added to OpenFastDL's file server
+description: Request new files be added to OpenFastDL's file servers
 title: "[CONTENT]: "
 labels: ["content-request"]
 body:
@@ -14,6 +14,23 @@ body:
         - Other
     validations:
       required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content links
+      description: Where can this content be safely and reliably be obtained from?
+      placeholder: Any necessary links or directions on how or where to download the relevant files should go here.
+    validations:
+      required: true
+  - type: textarea
+    id: instructions
+    attributes:
+      label: Special instructions
+      description: Does this content require any special instructions or care with regards to formatting or file structure?
+      placeholder: |
+        - The file materials/epic/nice.vtf should be renamed to nice2.vtf
+        - Files 1.pcf, 2.pcf, and 3.pcf should go in the particles folder
+        - Any .bak files can be ignored and do not need to be included
   - type: checkboxes
     id: verified
     attributes:

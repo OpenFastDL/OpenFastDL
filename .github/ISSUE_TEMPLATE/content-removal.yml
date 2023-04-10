@@ -1,0 +1,33 @@
+name: Content Removal
+description: Request your content be removed from OpenFastDL's file servers
+title: "[REMOVAL]: "
+labels: ["content-removal"]
+body:
+  - type: dropdown
+    id: game
+    attributes:
+      label: What game is this content for?
+      options:
+        - Team Fortress 2
+        - "Counter-Strike: Source"
+        - "Counter-Strike: Global Offensive"
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Proof of IP ownership
+      description: |
+      Please provide any links, documents, or other relevant information proving that *you* are the creator or owner of this content.
+
+      <small>*If you wish to privately disclose proof of ownership, you may do so via the organization's contact email and referencing this issue.*</small>
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why would you like this content removed?
+      placeholder: This is entirely optional, but feel free to voice any concerns or problems you had with your content being hosted here, if applicable.
+    validations:
+      required: false
