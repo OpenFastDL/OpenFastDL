@@ -8,10 +8,10 @@ body:
     attributes:
       label: What game is this content for?
       options:
-        - Team Fortress 2
+        - "Team Fortress 2"
         - "Counter-Strike: Source"
-        - "Counter-Strike: Global Offensive"
-        - Other
+        - "Counter-Strike 2"
+        - "Other"
     validations:
       required: true
   - type: textarea
